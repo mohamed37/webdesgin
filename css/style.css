@@ -175,7 +175,7 @@ grey-text-color -> #64676c
   color: #4cd137;
 }
 .statistics .statistic_container .statistic_icon{
-  font-size: 32px;
+  font-size: 52px;
 }
 .statistics .statistic_container .statistic_number{
   font-size: 28px;
@@ -199,7 +199,7 @@ grey-text-color -> #64676c
 .statistics .shap img{
   width: 100%
 }
-@media max(width: 567px) {
+@media (max-width: 567px) {
   .statistics .shap img{
     display: none
   }
