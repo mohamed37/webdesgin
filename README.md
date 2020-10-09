@@ -1,3 +1,3 @@
-# webdesgin
+# webdesign
 forntend for acdamic
 doaa
