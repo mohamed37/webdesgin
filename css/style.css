@@ -15,8 +15,58 @@ blue headings color -> #030431
 grey-text-color -> #64676c
 */
 
-/* navbar */
+/*** start IMPORTANT repeated styles for the button links a && for the headings***/
+/*start the main responsive heading*/
+.main_heading .heading_label{
+  font-size: 16px;
+  color: #3ba0ff;
+  font-weight: 500;
+  letter-spacing: 2px
+}
+.main_heading .heading_title{
+  color: #030431;
+  font-weight: bold;
+  font-size: 38px;
+}
+@media (max-width: 567px) {
+  .main_heading .heading_title{
+    font-size: 24px;
+  }
+}
+/*end the main heading_title*/
 
+/*links */
+.main_btn a{
+  padding: 15px 25px;
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+  position: relative;
+}
+.main_btn a::before,
+.main_btn a span{
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #3e44ec;
+  z-index: -1;
+  transition: width .3s ease-in-out;
+}
+.main_btn a span{
+  background-color: #2d3092;
+  z-index: -2;
+  width: 100%;
+}
+.main_btn a:hover::before{
+  width: 100%;
+}
+/*** end IMPORTANT repeated styles for the button links a && for the headings***/
+
+
+/* navbar */
 .image-user {
     width: 40px;
     border-radius: 50%;
@@ -27,7 +77,7 @@ grey-text-color -> #64676c
 *{
   margin:0;
   padding:0;
-  box-sizing:borsdr-box;
+  box-sizing:border-box;
   font-family: 'Source Sans Pro', sans-serif;
 
 }
@@ -40,24 +90,15 @@ grey-text-color -> #64676c
   margin-bottom: 5px;
   padding: 5px;
 }
-/* for first span */
-#about .container .row .about-information span{
-  color:blue;
-}
-/* for header h1 */
-#about .container .row .about-information h1{
-  font-weight:bold;
-}
-/* for paraghraph */
-#about .container .row .about-information p{
-  padding-top:10px;
-  line-height:24px;
-  color:#64676c;
+
+/* for header */
+#about .container .row .about-information .main_heading{
+  padding: 30px 0
 }
 /* for all parent's div in row */
 #about .container .row > div{
-  height:430px;
-  overflow:hidden;
+  /*height:430px;*/
+  /* overflow:hidden; */
 }
 /* for the list of icons */
 #about .container .row > div .about-information ul{
@@ -79,13 +120,8 @@ grey-text-color -> #64676c
   margin-right:12px;
 }
 /* for the button in about-information */
-#about .container .row > div .about-information button{
-  margin-top:19px;
-  position:relative;
-  background-color:#030431;
-  color:white;
-  width:150px;
-  padding:10px;
+#about .container .row > div .about-information .btn{
+
 }
 #about .container .row > div .about-img1,
 #about .container .row > div .about-img2
@@ -146,7 +182,7 @@ grey-text-color -> #64676c
   height: 100%;
   margin: 0;
   padding: 0;
-  padding-left: 270px;
+  padding-left: 50px;
 }
 /* header of description */
 #our-goals .row >div .our-goals-description h1{
@@ -156,7 +192,7 @@ grey-text-color -> #64676c
   font-size: 30px;
 }
 /* p in description */
-#our-goals .row >div .our-goals-description p{
+#our-goals .row >div .our-goals-description .the_description{
   color: #64676c;
   line-height: 25px;
   margin-top: 30px;
@@ -165,12 +201,11 @@ grey-text-color -> #64676c
 /*  this for last section in our goals..second row */
 #our-goals .waiting-for{
   width:100%;
-  height:100px;
   background-color:#0779e4;
-  margin-top:300px;
-  overflow:hidden;
+  margin-top:150px;
   padding-bottom:130px;
   color:white;
+  padding: 80px 0
 }
 
 /* this colmn1=question in second row */
@@ -180,7 +215,7 @@ grey-text-color -> #64676c
 /* this colmn2=button in second row */
 #our-goals .waiting-for >div .waiting-for-button {
   text-align:right;
-  margin-top:40px;
+  margin-top:45px;
 }
 #our-goals .waiting-for >div .waiting-for-button button:hover
 {
@@ -208,33 +243,13 @@ grey-text-color -> #64676c
 /*End Dashboard content */
 
 
-/*start the main responsive heading*/
-.main_heding{
-  text-align: center;
-  padding: 50px 0;
-}
-.main_heding .heading_label{
-  font-size: 16px;
-  color: #3ba0ff;
-  font-weight: 500;
-  letter-spacing: 2px
-}
-.main_heding .heading_title{
-  color: #030431;
-  font-weight: bold;
-  font-size: 38px;
-}
-@media (max-width: 567px) {
-  .main_heding .heading_title{
-    font-size: 24px;
-  }
-}
-/*end the main heading_title*/
-
-
 /*start the courses section*/
 .courses{
   margin: 80px 0;
+}
+.courses .main_heading{
+  padding: 50px 0;
+  text-align: center
 }
 .courses .course_box{
   padding: 40px 30px;
@@ -280,34 +295,6 @@ grey-text-color -> #64676c
 .courses .more_courses_btn{
   text-align: center;
   margin: 15px 0;
-}
-.courses .more_courses_btn a{
-  padding: 15px 25px;
-  font-size: 18px;
-  color: #fff;
-  text-decoration: none;
-  position: relative;
-
-}
-.courses .more_courses_btn a::before,
-.courses .more_courses_btn a span{
-  content: '';
-  position: absolute;
-  width: 0;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background-color: #3e44ec;
-  z-index: -1;
-  transition: width .3s ease-in-out;
-}
-.courses .more_courses_btn a span{
-  background-color: #2d3092;
-  z-index: -2;
-  width: 100%;
-}
-.courses .more_courses_btn a:hover::before{
-  width: 100%;
 }
 /*end the courses section*/
 
@@ -369,12 +356,15 @@ grey-text-color -> #64676c
 /*end the statistics section*/
 
 /*start styling the testimenial section*/
+#testimenials .main_heading{
+  padding: 30px 0;
+}
 #testimenials .testimenial_content .testim_box{
   border-bottom: 3px solid  #494ffd;
   border-radius: 10px;
   box-shadow: 0px 0px 10px #dbdbdb;
   padding: 30px 15px;
-  margin-bottom: 30px
+  margin-bottom: 100px
 }
 #testimenials .testimenial_content .testim_box .title h4{
   font-weight: 500;
