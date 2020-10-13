@@ -1,12 +1,177 @@
 /*start Global settings for the body*/
-body{
-  margin: 0;
-  padding: 0;
-  font-family: 'Source Sans Pro', sans-serif !important;
-  background-color: #fff;
-  overflow-x: hidden;/*remove the horizontal scroll*/
+body {
+font-family: "source sans pro", sans-serif !important;
+height: 2000px;
 }
-/*end Global settings for the body*/
+
+
+/*Start navbar*/
+
+.navbar{
+  background-color: #FFF;
+  border: none;
+ }
+
+.navbar-inverse .navbar-nav > li > a {
+  color: black;
+ }
+
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: #0779e4;
+}
+
+.navbar-nav > li > a {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  line-height: 0px;
+  text-align: center;
+  border-radius: 3px;
+  margin: 8px auto;
+  margin-bottom: 0px;
+  font-size: 15px;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus{
+background-color:#0779e4 ;
+}
+.collapse .links-contanier{
+text-align: center;
+position: relative;
+left: 30%;
+}
+
+
+/*Heading*/
+.heading {
+margin-top: 51px;
+background-image: url("../images/heading.jpg");
+height: 680px;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+.heading .word {
+position: absolute;
+top: 40%;
+left: 17%;
+}
+.heading .word h6,
+.heading .word p {
+font-size: 35px;
+color: #030432;
+}
+.heading .word p{
+max-width: 400px;
+}
+
+/*Search bar*/
+.search-dropdown{
+min-width: 90%;
+min-height: 40px;
+background-color: #ffff;
+display: block;
+padding: 30px;
+margin: 10px 0px;
+border-radius: 40px;
+transition: all .6s;
+border: 1px solid #ffff;
+position: absolute;
+top: 112%;
+
+}
+.search-dropdown .search{
+border-radius: 30px;
+background-color: #fff;
+margin-top: -4px;
+}
+.search-dropdown .search input{
+outline: none;
+background-color: unset;
+border: none;
+min-width: 100%;
+padding: 10px;
+}
+.search-dropdown .search input::-webkit-input-placeholder{
+color: black;
+padding: 4px;
+font-size: 15px;
+}
+.search-dropdown .search input:focus::-webkit-input-placeholder {
+opacity: 0;
+transition: 0.7s;
+}
+
+/*Drop down button*/
+.search-dropdown .dropdown .btn-default{
+color: black;
+background-color: #FFF;
+transition: all .6s;
+
+}
+.search-dropdown .dropdown .btn-default:focus{
+background-color: #0779e4;
+color: #FFF;
+font-weight: bold;
+transition: all .6s;
+
+}
+/*Dropmeanu list*/
+.search-dropdown .dropdown-menu{
+background-color: #FFF;
+outline: none;
+margin-top: 22px;
+margin-left: -12px;
+transition: all .6s;
+
+}
+/*Dropmeanu list links*/
+.dropdown-menu > li > a{
+color: black;
+}
+
+.dropdown-menu > li > a:hover{
+  background-color: #0779e4;
+  margin-left: 9px;
+  color: #FFF;
+  transition: all .6s;
+}
+
+
+/*Dropmeanu list divider*/
+.dropdown-menu .divider{
+background-color: #0779e4;
+}
+
+/*search Button*/
+.search-btn .btn{
+background-color: #0779e4;
+}
+
+/*Welcome section*/
+.welcome {
+  margin-top: 100px;
+  max-height: 500px;
+  background-color: whitesmoke;
+ }
+
+.welcome .welcome-text h1{
+   color: #0779e4;
+}
+
+.welcome .welcome-text p{
+  line-height: 2.3em;
+  color: #666;
+}
+
+.welcome .welcome-img img{
+  width: 100%;
+  max-height: 490px;
+}
+
+
+/*************************************************************************/
 
 /*colors:
 blue -> #2d3092
@@ -210,8 +375,7 @@ grey-text-color -> #64676c
 
 /*start the main responsive heading*/
 .main_heding{
-  text-align: center;
-  padding: 50px 0;
+  padding: 40px 0 20px;
 }
 .main_heding .heading_label{
   font-size: 16px;
@@ -412,6 +576,63 @@ grey-text-color -> #64676c
 /*end styling the testimenial sectiong*/
 
 
+/*last courses*/
+.last-courses{
+  padding-top: 20px 0px;
+  margin-top: 10px;
+  border-top: 30px solid #3c419a;
+  }
+  .last-courses .container > h6{
+  color:#3c419a;
+  margin-bottom: 20px;
+  }
+  .last-courses .container h1{
+   margin-bottom: 20px;
+  }
+  .last-courses .content-box {
+  margin-bottom: 20px;
+  }
+  .last-courses .content-box img{
+  width: 300px;
+  height: 300px;
+  }
+  .last-courses .content-box .text{
+  max-width: 60px;
+
+  background-color: #3c419a;
+  color: #fff;
+  position: relative;
+  bottom: 57px;
+  line-height: 2em;
+  text-align: center;
+  padding-top: 1px;
+  }
+
+
+@media(max-width:995px){
+  .last-courses .content-box .text{
+    left:29%;
+  }
+}
+
+  .last-courses .content-box .text h5{
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 20px;
+  }
+  .last-courses .content-box .text p{
+  margin-top: -14px;
+  }
+  .last-courses .content-box .under-word {
+  margin-top: -30px;
+  }
+  .last-courses .content-box .under-word h6{
+  color: #3c419a;
+  margin-bottom: 5px;
+  }
+  .last-courses .content-box .under-word > h4{
+  line-height: 24px;
+  }
 
 /*start the footer*/
 footer{
@@ -502,4 +723,26 @@ footer .footer-bottom{
 footer .footer-bottom .footer-copy-right{
   color: #ccc
 }
+footer .footer-social a{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-color: #ccc;
+  font-size: 24px;
+  text-align: center;
+  line-height: 40px;
+  margin-right: 10px;
+  color: #000;
+  transition: all .3s ease;
+}
+footer .footer-social a:hover{
+  color: #fff;
+  border-radius: 50%;
+}
+
+footer .footer-social a.fb_link:hover{background-color: #3b5998;}
+footer .footer-social a.tw_link:hover{background-color: #00aeef;}
+footer .footer-social a.g_link:hover{background-color: #dd4b39;}
+footer .footer-social a.ins_link:hover{background-color: #e1306c;}
+footer .footer-social a.yo_link:hover{background-color: #ff0000;}
 /*end the footer*/
