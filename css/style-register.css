@@ -1,0 +1,114 @@
+*{
+margin:0;
+padding:0;
+box-sizing:borsdr-box;
+font-family: 'Source Sans Pro', sans-serif;
+
+
+}
+body{
+	padding:10px 0;
+}
+/* every input */
+#register input{
+	height:45px;
+}
+/* header sign up */
+#register h1{
+	font-size: 50px;
+    color: cornflowerblue;
+    font-weight: 600;
+    line-height: revert;
+	margin-bottom:70px;
+}
+/* every section contain two inputs */
+#register .two-inputs{
+	    display: flex;
+    justify-content: space-between;
+}
+/* every div in class two-inputs */
+#register .two-inputs >div{
+	width:40%;
+}
+/* width for input email and tele */
+#register .email1,
+#register .tele1
+{
+	width:40%;
+}
+/* for label male and female */
+#register form label{
+position: relative;
+    top: -17px;
+    left: 5px;
+
+}
+/* for section submit */
+#register .submit{
+	display:flex;
+	justify-content:center;
+}
+/* for button submit */
+#register .submit button{
+	width:200px;
+	height:50px;
+	font-weight:700;
+	color:white;
+	background-color:cornflowerblue;
+	letter-spacing:2px;
+	font-size:20px;
+	
+}
+@media (max-width:786px){
+	#register .submit button{
+    width:130px;
+	height:50px;
+	font-size:15px;
+	font-weight:500;
+}
+}
+/* responsive for input choose image */
+ @media (max-width:992px){
+	 #register .file1{
+		 width:60% !important;
+		 position:relative;
+		 left:50%;
+		 transform:translateX(-50%);
+		 
+	 }
+ }
+ /* this responsive for image-header */
+  @media (max-width:992px){
+	  #register .image-header{
+		  text-align:center;
+		  position:relative;
+		  left:22%;
+		  transform:translateX(-22%);
+	  }
+  }
+ /* this for profile picture */
+ #register img{
+ 	height: 200px;
+    width: 300px;
+    position: relative;
+    left: 7%;}
+
+/* start responsive for image */
+   @media (max-width:992px){
+ #register img{
+	 height:150px;
+	 width:250px;
+	 left:0;
+	 
+	 
+
+    }
+   }
+     @media (max-width:992px){
+ #register .image1{
+ 	
+	display:flex;
+	justify-content:center;
+    }
+   }
+   /* end  responsive for image */

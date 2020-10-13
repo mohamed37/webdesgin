@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Hello, world!</title>
+	<!-- links for bootstrap 4 and 3 ..css -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+	<!-- link for icons from font awesome -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<!-- link for mystyle css -->
+	  <link rel="stylesheet" href="css/jquery-ui.css">
+	<link rel="stylesheet" href="css/style-register.css" />
+
+	<!-- link for font google -->
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400&display=swap" rel="stylesheet">
+    </head>
+	<body>
+	<!-- start sectio register -->
+	   <section id="register">
+	   <div class="container">
+	   <h1 class="text-center">Sign Up</h1>
+	   <!-- this for last name and last name -->
+	   <label>First Name:</label>
+	<label style=" margin-left:54.4%">Last Name:</label>
+     <div class="two-inputs ">
+     <div class="input-group   margin-bottom-sm ">
+     <span class="input-group-addon"><i class="fa fa-user fa-fw"></i></span>
+     <input class="form-control" type="text" placeholder="First Name">
+     </div>
+
+    <div class="input-group ">
+    <span class="input-group-addon"><i class="fa fa-user fa-fw"></i></span>
+    <input class="form-control" type="text" placeholder="Last Name">
+    </div>
+	</div>
+    <br>
+    <br>
+	<!-- this for email -->
+	<label class="email"  >Email:</label>
+	<br>
+     <div class="input-group email1">
+    <span class="input-group-addon"><i class="fa fa-envelope fa-fw"></i></span>
+    <input class="form-control" type="email" placeholder="Email">
+    </div>
+	<br>
+	<br>
+	 <!-- this for password and confirm password -->
+	<label>Password:</label>
+	<label style=" margin-left:54.4%">Confirm Password:</label>
+	<br>
+	 <div class="two-inputs ">
+    <div class="input-group margin-bottom-sm">
+	 <span class="input-group-addon"><i class="fa fa-key fa-fw"></i></span>
+    <input class="form-control " type="password" placeholder="Password">
+      </div>
+	 
+
+
+
+    <div class="input-group ">
+    <span class="input-group-addon"><i class="fa fa-key fa-fw"></i></span>
+    <input class="form-control" type="password" placeholder="Confirm Password">
+    </div>
+	</div>
+	<br>
+	<br>
+     <!-- this for telephone -->
+    <label>Telephone:</label>
+     <br>
+     <div class="input-group" class="tele1 " style="width:40%">
+    <span class="input-group-addon"><i class="fa fa-phone fa-fw"></i></span>
+	<input type="tel" placeholder="123-456-789" class="form-control" />
+	</div>
+
+	
+	<br>
+	<br>
+	<!-- this for birthday date and age -->
+	<label>Birthday Date:</label>
+	<label style=" margin-left:52.8% ">Age:</label>
+	<br>
+	 <div class="two-inputs ">
+     <div class="input-group margin-bottom-sm ">
+	
+	 
+    <span class="input-group-addon"><i class="fa fa-birthday-cake fa-fw"></i></span>
+    <input class="form-control" type="text" placeholder="dd/mm/yyyy" id="dob">
+   </div>
+
+    <div class="input-group ">
+    <span class="input-group-addon"><i class="fa fa-birthday-cake fa-fw"></i></span>
+    <input class="form-control" type="text" placeholder="Age" id="dob1">
+    </div>
+	</div>
+	<br>
+	<br>
+	<!-- male/female -->
+		<label>Sex:</label>
+		<form>
+      <input type="radio" id="male" name="gender" value="male">
+     <label for="male">Male</label>
+     <input type="radio" id="female" name="gender" value="female" style="position:relative;margin-left:50px">
+     <label for="female">Female</label><br>
+  
+      </form>
+     <br>
+	 <!-- this for address -->
+	<label class="email"  >Address:</label>
+    
+	<br>
+	 <div class="input-group email1">
+    <span class="input-group-addon"><i class="fa fa-home fa-fw"></i></span>
+    <input class="form-control" type="text" placeholder="Address">
+    </div>
+	<br>
+	<br>
+	<!-- this for country and city -->
+	   <label>Country:</label>
+	   <label style=" margin-left:55.4%  ">City:</label>
+	   <div class="two-inputs">
+
+	    <div class="input-group margin-bottom-sm "style="height:43px">
+	
+	 
+        <span class="input-group-addon"><i class="fa fa-flag fa-fw"></i></span>
+       <select class="selectpicker countrypicker form-control" data-flag="true" style="height:45px">
+	   <option>Egypt</option>
+	   <option>syria</option>
+	   <option>lebanon</option>
+	   <option>jordan</option>
+	   <option>iraq</option>
+	   
+	   </select>
+       </div>
+
+    <div class="input-group ">
+    <span class="input-group-addon"><i class="fa fa-building-o fa-fw"></i></span>
+    <input class="form-control" type="text" placeholder="City">
+    </div>
+	</div>
+    <br>
+    <br>
+	 <!-- this for image field --> 
+       <label class="image-header">Image:</label>
+       <br>
+       <div class="input-group file1 " style="width:40% ">
+        <span class="input-group-addon"><i class="fa fa-upload fa-fw"></i></span>
+
+      <input type="file" id="avatar" name="avatar" class="form-control"
+       accept="image/png, image/jpeg">
+       
+       </div>
+	
+	<br>
+	<br>
+	<div>
+	<!-- this for profile picture -->
+	<div class="image1">
+	<img src="images/image1.png" />
+	</div>
+	</div>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br
+	<!-- this for submit button -->
+	<section class="submit">
+     <a href="#"><button class="btn mx-auto  "> <i class="fa fa-save" style="margin-right:8px"></i>Submit 	 
+     </button></a>
+	 </section>
+	 <br>
+	 
+	 <br>
+	 <br>
+
+
+
+
+
+       </div>
+
+
+	   </section>
+	    <!-- end section register -->
+	   
+	   
+
+	   
+	   
+	   
+	   
+	   
+	   
+	<!-- this for jguery -->
+	
+	
+	  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="js/jquery.js"></script>
+  <script src="js/jquery-ui.js"></script>
+     	<!-- this links for bootstrap 3 and 4 js -->
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script>
+	$(document).ready(function() {
+        var age = "";
+        $('#dob').datepicker({
+            onSelect: function(value, ui) {
+                var today = new Date();
+                age = today.getFullYear() - ui.selectedYear;
+                $('#dob1').val(age);
+            },
+            changeMonth: true,
+            changeYear: true
+        })
+    })
+	
+	
+	</script>
+    </body>
+	</html>   
