@@ -156,6 +156,7 @@ background-color: #0779e4;
   margin-top: 100px;
   max-height: 500px;
   background-color: whitesmoke;
+  overflow: hidden;/*because it's covering the section bellow*/
  }
 
 .welcome .welcome-text h1{
@@ -538,17 +539,12 @@ grey-text-color -> #64676c
   font-weight: bold;
   font-size: 38px;
 }
-@media (max-width: 567px) {
-  .main_heding .heading_title{
-    font-size: 24px;
-  }
-}
 /*end the main heading_title*/
 
 
 /*start the courses section*/
 .courses{
-  margin: 80px 0;
+  margin: 40px 0 80px;
 }
 .courses .course_box{
   padding: 40px 30px;
@@ -674,11 +670,6 @@ grey-text-color -> #64676c
 }
 .statistics .shap img{
   width: 100%
-}
-@media (max-width: 567px) {
-  .statistics .shap img{
-    display: none
-  }
 }
 /*end the statistics section*/
 
@@ -883,6 +874,7 @@ footer .footer-social a{
   text-align: center;
   line-height: 40px;
   margin-right: 10px;
+  margin-bottom: 10px;
   color: #000;
   transition: all .3s ease;
 }
