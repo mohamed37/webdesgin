@@ -1,4 +1,69 @@
+/****************************** DOAA PART ****************/
 
+  @media (max-width:992px){
+    #about .row > div:nth-child(2){
+      position:relative;
+      margin-top:31px;
+      
+      
+    }
+  }
+  @media (max-width:992px){
+    #about .about-information h1{
+      font-size:20px;
+    }
+    #about .about-information span{
+      font-size:13px;
+    }
+    #about .about-information p{
+      font-size:12px;
+      line-height:16px !important;
+    }
+    #about .about-information ul{
+      font-size:12px;
+      margin-top:0 !important;
+      margin-bottom:0 !important;
+      
+    }
+      #about .about-information button{
+        width:100px !important;
+        font-size:10px;
+      }
+  }
+  @media(max-width:1200px){
+    #our-goals .row11 .our-goals-description span{
+  
+    font-size:12px!important;	}
+      #our-goals .our-goals-description h1{
+        font-size:22px !important;
+  
+  }
+      #our-goals .our-goals-description p{
+        font-size:11px;
+        
+  
+  }
+  #our-goals .container{
+      text-align:center !important; 
+      font-size:10px !important;
+      overflow:hidden;
+      
+    }
+    #our-goals .row div:last-child{
+      padding-left:0 !important;
+  }
+  #our-goals .row div:nth-child(2){
+    position:relative;
+        margin-top:50px;
+  }
+  #our-goals .row div:last-child .waiting-for-button{
+    position:relative;
+    margin-top:-17px;
+  }
+  
+  }
+  
+/********************************* YOUNESS PART ****************/
 /* mobile screen 567px an less */
 
 @media (max-width: 567px) {

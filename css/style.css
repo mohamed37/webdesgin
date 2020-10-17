@@ -1,3 +1,5 @@
+/*********************  START KHALED *****************/
+
 /*start Global settings for the body*/
 body {
 font-family: "source sans pro", sans-serif !important;
@@ -168,9 +170,6 @@ background-color: #0779e4;
   color: #666;
 }
 
-=======
-}
-
 .navbar-nav > li > a {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -321,16 +320,6 @@ background-color: #0779e4;
   max-height: 490px;
 }
 
-
-/*************************************************************************/
-
-/*colors:
-blue -> #2d3092
-light-blue -> #3ba0ff
-blue headings color -> #030431
-grey-text-color -> #64676c
-*/
-
 /* navbar */
 
 .image-user {
@@ -340,169 +329,166 @@ grey-text-color -> #64676c
 
 
 /*end navbar*/
-*{
-  margin:0;
-  padding:0;
-  box-sizing:borsdr-box;
-  font-family: 'Source Sans Pro', sans-serif;
+/*************************END KHALID PART******************************************/
+/*************************START DOAA PART******************************************/
 
-}
 /* start properties for section about */
 /* row padding top and bottom */
 #about .container .row{
   padding:60px 0;
-}
-.listicons li{
-  margin-bottom: 5px;
-  padding: 5px;
-}
-/* for first span */
-#about .container .row .about-information span{
-  color:blue;
-}
-/* for header h1 */
-#about .container .row .about-information h1{
-  font-weight:bold;
-}
-/* for paraghraph */
-#about .container .row .about-information p{
+  }
+  /* for first span */
+  #about .container .row .about-information span{
+    color:blue;
+  }
+  /* for header h1 */
+  #about .container .row .about-information h1{
+    font-weight:bold;
+  }
+  /* for paraghraph */
+  #about .container .row .about-information p{
   padding-top:10px;
   line-height:24px;
   color:#64676c;
-}
-/* for all parent's div in row */
-#about .container .row > div{
-  height:430px;
-  overflow:hidden;
-}
-/* for the list of icons */
-#about .container .row > div .about-information ul{
-  margin-bottom:50px;
-}
-
-#about .container .row > div .about-information ul li span{
+  }
+  /* for all parent's div in row */
+  #about .container .row > div{
+    overflow:hidden;
+    height:100%;
+  
+  }
+  /* for the list of icons */
+  #about .container .row > div .about-information ul{
+    margin-bottom:50px;
+  }
+  
+  #about .container .row > div .about-information ul li span{
   font-weight:900;
   color:black;
-}
-/* for the icon */
-#about .container .row > div .about-information ul li i{
-  font-size: 20px;
-  margin-right: 20px;
-  color:#030431;
-
-}
-#about .container .row > div .about-information ul li  .fa-graduation-cap{
-  margin-right:12px;
-}
-/* for the button in about-information */
-#about .container .row > div .about-information button{
-  margin-top:19px;
-  position:relative;
-  background-color:#030431;
-  color:white;
-  width:150px;
-  padding:10px;
-}
-#about .container .row > div .about-img1,
-#about .container .row > div .about-img2
-{
-  width:100%;
-  height:100%;
-}
-/* for the images */
-#about .container .row > div .about-img1 img,
-#about .container .row > div .about-img2 img
-{
-  width:100%;
-  height:100%;
-}
-/* for the lines */
-#about .about-line-up,
-#about .about-line-down
-{
-  height:60px;
-  background-color:#030431;
-}
-/* end properties for section about */
-
-
-/* star section our goals */
-#our-goals
-{padding-bottom:100px;
-}
-/* this for line */
-#our-goals .our-goals-light-up{
-  height:70px!important;
-}
-/* this for the first row */
-#our-goals .row11{
-  height:200px;
-  margin-top:60px;
-}
-/* this for first child in first row */
-#our-goals .row div:first-child{
-  padding:0;
-  margin:0;
-
-}
-/* image */
-#our-goals .row >div .our-goals-image{
-  width:100%;
-  height:100%;
-}
-/* this for last child in first row */
-
-#our-goals .row div:last-child{
-  padding:0;
-  margin:0;
-}
-/* this for description in first row */
-#our-goals .row >div .our-goals-description{
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  padding-left: 270px;
-}
-/* header of description */
-#our-goals .row >div .our-goals-description h1{
-  margin-top: 5px;
-  color: blue;
-  font-weight: bolder;
-  font-size: 30px;
-}
-/* p in description */
-#our-goals .row >div .our-goals-description p{
-  color: #64676c;
-  line-height: 25px;
-  margin-top: 30px;
-  font-size: 15px;
-}
-/*  this for last section in our goals..second row */
-#our-goals .waiting-for{
-  width:100%;
-  height:100px;
-  background-color:#0779e4;
-  margin-top:300px;
-  overflow:hidden;
-  padding-bottom:130px;
-  color:white;
-}
-
-/* this colmn1=question in second row */
-#our-goals .waiting-for >div .question{
-  margin-top:40px;
-}
-/* this colmn2=button in second row */
-#our-goals .waiting-for >div .waiting-for-button {
-  text-align:right;
-  margin-top:40px;
-}
-#our-goals .waiting-for >div .waiting-for-button button:hover
-{
+  }
+  /* for the icon */
+  #about .container .row > div .about-information ul li i{
+        font-size: 20px;
+      margin-right: 20px;
+    color:#030431;
+  
+  }
+  #about .container .row > div .about-information ul li  .fa-graduation-cap{
+    margin-right:12px;
+  }
+  /* for the button in about-information */
+  #about .container .row > div .about-information button{
+    margin-top:19px;
+    position:relative;
+    background-color:#030431;
+    color:white;
+    width:150px;
+    padding:10px;
+  }
+  #about .container .row > div .about-img1,
+  #about .container .row > div .about-img2 
+   {
+    width:100%;
+    height:100%;
+  }
+  /* for the images */
+  #about .container .row > div .about-img1 img,
+  #about .container .row > div .about-img2 img
+  {
+    width:100%;
+    height:100%;
+  }
+  /* for the lines */
+  #about .about-line-up,
+  #about .about-line-down
+  {
+    height:60px;
+    background-color:#030431;
+  }
+  /* end properties for section about */
+  
+  
+  /* star section our goals */
+  #our-goals
+  {padding-bottom:100px;
+  }
+  /* this for line */
+  #our-goals .our-goals-light-up{
+    height:70px!important;
+  }
+  /* this for the first row */
+  #our-goals .row11{
+    margin-top:60px;
+  }
+  /* this for first child in first row */
+  #our-goals .row div:first-child{
+    padding:0;
+    margin:0;
+    
+  }
+  /* image */
+  #our-goals .row >div .our-goals-image{
+    width:100%;
+    height:100%;
+  }
+  /* this for last child in first row */
+  
+  #our-goals .row div:last-child{
+    padding:0;
+    margin:0;
+  }
+  /* this for description in first row */
+  #our-goals .row >div .our-goals-description{
+    width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      padding-left: 270px;
+  }
+  /* header of description */
+  #our-goals .row >div .our-goals-description h1{
+        margin-top: 5px;
+      color: blue;
+      font-weight: bolder;
+      font-size: 30px;
+  }
+  /* p in description */
+  #our-goals .row >div .our-goals-description p{
+        color: #64676c;
+      line-height: 25px;
+      margin-top: 30px;
+      font-size: 15px;
+  }
+  /*  this for last section in our goals in second row */
+  #our-goals .waiting-for{
+    width:100%;
+    background-color:cornflowerblue;
+    margin-top:150px;
+    overflow:hidden;
+    color:white;
+    padding-bottom:30px;
+  }
+  
+  /* this colmn1=question in second row */
+  #our-goals .waiting-for >div .question{
+      margin-top:40px;
+    padding-bottom:30px;
+  
+  
+  }
+  /* this colmn2=button in second row */
+  #our-goals .waiting-for >div .waiting-for-button {
+    text-align:right;
+      margin-top:40px;
+  
+  }
+  #our-goals .waiting-for >div .waiting-for-button button:hover
+  {
   color:white;}
-/* end section our goals */
+  /* end section our goals */
 
+/*****************************END DOAA PART***********************************************/
+/****************************** START YOUNESS PART ****************************************/
 
 /*Dashboard content */
 
@@ -889,3 +875,4 @@ footer .footer-social a.g_link:hover{background-color: #dd4b39;}
 footer .footer-social a.ins_link:hover{background-color: #e1306c;}
 footer .footer-social a.yo_link:hover{background-color: #ff0000;}
 /*end the footer*/
+/**************************END YOUNESS PART ***************************/
