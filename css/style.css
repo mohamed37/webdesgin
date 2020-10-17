@@ -853,6 +853,7 @@ footer .footer_menu .single-footer-caption ul li:hover{
 footer .footer_menu .single-footer-caption ul li a{
   color: #919191;
   text-decoration: none;
+  font-size: 18px;
 }
 footer .footer_menu .single-footer-caption ul li a:hover{
   color: #ccc;
