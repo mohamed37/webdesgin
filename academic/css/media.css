@@ -1,0 +1,262 @@
+/***************************khalid part ********************/
+@media(max-width:320px){
+  .heading .search-dropdown{
+    padding: 30px 0;
+
+  }
+  .welcome{
+    max-height:100%;
+  }
+}
+
+/*EMedia in phones*/
+@media(min-width : 360px){
+  .container{
+  max-width: 360px;
+  }
+  .navbar .main-link{
+  position: static;
+  overflow: hidden;
+  }
+  .navbar .loginandregister {
+  position: static;
+  }
+  .search-dropdown{
+  border: none;
+  text-align: center;
+  border-radius: 0%;
+  width: 100%;
+  left: -14%;
+  }
+  .search-dropdown .search input {
+  margin-left: 5px;
+  }
+  .search-dropdown .dropdown .btn-default{
+  position: relative;
+  }
+  .search-btn .btn {
+  position: relative;
+  left: 40px;
+  }
+  .search-dropdown .dropdown-menu {
+  position: absolute;
+  top: 20px;
+  left: -40px
+  }
+  .heading{
+  width: 100%;
+  height:290px ;
+  }
+  .heading .word{
+  top: 97px;
+  left: 4px;
+  }
+  .heading .word h6,
+  .heading .word p{
+  font-size: 29px;
+  }
+  .welcome .welcome-text {
+  margin-top: 38px;
+  }
+  .welcome .welcome-text h1 {
+  font-size: 24px;
+  }
+  .last-courses .content-box .text {
+  left: 4.6%;
+  }
+  }
+  
+  @media(min-width : 411px){
+  .search-dropdown{
+  margin-top: 0px;
+  }
+  .heading .word p {
+  max-width: 358px;
+  }
+  }
+  
+  /*EMedia in tablets*/
+  @media(min-width : 768px){
+  .container{
+  max-width: 720px;
+  }
+  .navbar .main-link{
+  position: static;
+  overflow: hidden;
+  }
+  .navbar .loginandregister {
+  position: relative;
+  top: -49px;
+  left:84% ;
+  }
+  .search-dropdown{
+  top: 34%;
+  left: -19px;
+  }
+  .last-courses .content-box .text{
+  left: 28.3%;
+  }
+  }
+  
+  @media(min-width : 992px){
+  .container{
+  max-width: 960px;
+  }
+  .navbar .main-link{
+  position: static;
+  margin-left: 90px;
+  }
+  .navbar .loginandregister {
+  position: static;
+  float: right;
+  }
+  .search-dropdown{
+  top:33%
+  } 
+  .heading{
+  height: 390px;
+  }
+  .heading .word{
+  left: 12%;
+  top: 12%;
+  }
+  .last-courses .content-box .text{
+  left: 7%;
+  }
+  }
+  
+  @media(min-width : 1140px){
+  .container{
+  max-width: 1140px;
+  }
+  .search-dropdown{
+    top:85%;
+  }
+  .heading .word{
+    top: 29%;
+    left: 20%;
+  }
+  }
+    /* mobile screen 567px an less */
+  
+  @media (max-width: 567px) {
+  
+  /*start home pages*/
+  /*heading*/
+  .main_heding .heading_title{
+  font-size: 24px;
+  }
+  /*statistic section*/
+  @media (max-width: 567px) {
+  .statistics .shap img{
+  display: none
+  }
+  }
+  
+  /*end home pages*/
+  
+  /*start about pages*/
+  /*about company section*/
+  @media (max-width: 567px) {
+  #about_company .about_img_wrapper .about_shap{
+  display: none;
+  }
+  }
+  /*end about pages*/
+  
+  }
+  
+/****************************** DOAA PART ****************/
+
+  @media (min-width:768px){
+    #about .about-information h1{
+      font-size:20px;
+    }
+    #about .about-information span{
+      font-size:19px;
+    }
+    #about .about-information p{
+      font-size:19px;
+    }
+    #about .about-information ul{
+      font-size: 19px;
+      margin-top: 22px !important;
+      margin-bottom: 22px !important;
+      
+    }
+      #about .about-information button{
+        width:100px !important;
+        font-size:10px;
+      }
+      #about .more_courses_btn{
+        margin-bottom:35px;
+      }
+  }
+  @media(max-width:1200px){
+    #our-goals .row11 .our-goals-description span{
+  
+    font-size:12px!important;	}
+      #our-goals .our-goals-description h1{
+        font-size:22px !important;
+  
+  }
+      #our-goals .our-goals-description p{
+        font-size:19px;
+        
+  
+  }
+  #our-goals .container{
+      text-align:center !important; 
+      font-size:19px !important;
+      overflow:hidden;
+      
+    }
+    #our-goals .row div:last-child{
+      padding-left:0 !important;
+  }
+  #our-goals .row div:nth-child(2){
+    position:relative;
+        margin-top:50px;
+  }
+  #our-goals .row div:last-child .waiting-for-button{
+    position:relative;
+    margin-top:-17px;
+  }
+  #our-goals .waiting-for >div .waiting-for-button{
+    text-align:center;
+  }
+  #our-goals .waiting-for{
+    padding:20px 0;
+    margin-top:0;
+  }
+  }
+  
+/********************************* YOUNESS PART ****************/
+/* mobile screen 567px an less */
+
+@media (max-width: 567px) {
+
+  /*start home pages*/
+    /*heading*/
+  .main_heding .heading_title{
+    font-size: 24px;
+  }
+    /*statistic section*/
+  @media (max-width: 567px) {
+    .statistics .shap img{
+      display: none
+    }
+  }
+
+  /*end home pages*/
+
+  /*start about pages*/
+    /*about company section*/
+  @media (max-width: 567px) {
+    #about_company .about_img_wrapper .about_shap{
+        display: none;
+    }
+  }
+  /*end about pages*/
+  
+}

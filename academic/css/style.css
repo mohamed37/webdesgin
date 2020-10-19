@@ -1,0 +1,803 @@
+/*********************  START KHALED *****************/
+/*start Global settings for the body*/
+body {
+  font-family: "source sans pro", sans-serif !important;
+  height: 2000px;
+  }
+  
+  
+  /*Start navbar*/
+  .navbar{
+  background-color: #FFF;
+  border: none;
+  max-height: 60px;
+  }
+  .navbar .navbar-brand{
+  margin-top: -8px;
+  color:black
+  }
+  .navbar .navbar-brand span{
+  display: block; 
+  font-size: 15px;
+  text-align: center;
+  color:black
+  }
+  .navbar-toggle {
+  background-color: #0779e4;
+  }
+  .navbar-inverse .navbar-toggle:focus,
+  .navbar-inverse .navbar-toggle:hover{
+  background-color: #0779e4;
+  }
+  .navbar .main-link{
+  position: relative;
+  left: 18%;
+  }
+  .navbar .loginandregister{
+  position: relative;
+  left: 33%;
+  }
+  .navbar-inverse .navbar-nav > li > a {
+  color: black;
+  }
+  .navbar-inverse .navbar-nav > li > a:hover {
+  color: #0779e4;
+  }
+  .navbar-nav > li > a {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  line-height: 0px;
+  text-align: center;
+  border-radius: 3px;
+  margin: 8px auto;
+  margin-bottom: 0px;
+  font-size: 15px;
+  }
+  .navbar-inverse .navbar-nav > .active > a,
+  .navbar-inverse .navbar-nav > .active > a:hover,
+  .navbar-inverse .navbar-nav > .active > a:focus{
+  background-color:#0779e4 ;
+  }
+  .collapse .links-contanier{
+  text-align: center;
+  position: relative;
+  left: 30%;
+  }
+  /*End Nav-Bar*/
+  
+  /*Start Heading*/
+  .heading {
+  margin-top: 51px;
+  background-image: url("../images/heading.jpg");
+  height: 680px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  }
+  .heading .word {
+  position: absolute;
+  top: 40%;
+  left: 17%;
+  }
+  .heading .word h6,
+  .heading .word p {
+  font-size: 35px;
+  color: #030432;
+  }
+  .heading .word p{
+  max-width: 400px;
+  }
+  .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+     background-color: #ffffffdb;
+  }
+  /*End Heading*/
+  
+  
+  /*Start Search bar*/
+  .search-dropdown{
+  min-width: 88%;
+  min-height: 40px;
+  display: block;
+  padding: 30px;
+  margin: 10px 0px;
+  transition: all .6s;
+  border: 1px solid #ffff;
+ 
+  }
+  .search-dropdown .search{
+  border-radius: 30px;
+  background-color: #fff;
+  margin-top: -4px;
+  }
+  .search-dropdown .search input{
+  outline: none;
+  background-color: unset;
+  border: none;
+  min-width: 100%;
+  padding: 10px;
+  }
+  .search-dropdown .search input::-webkit-input-placeholder{
+  color: black;
+  padding: 4px;
+  font-size: 15px;
+  }
+  .search-dropdown .search input:focus::-webkit-input-placeholder {
+  opacity: 0;
+  transition: 0.7s;
+  }
+  /*Drop down button*/
+  .search-dropdown .dropdown .btn-default{
+  color: black;
+  background-color: #FFF;
+  transition: all .6s;
+  }
+  .search-dropdown .dropdown .btn-default:focus{
+  background-color: #0779e4;
+  color: #FFF;
+  font-weight: bold;
+  transition: all .6s;
+  }
+  /*Dropmeanu list*/
+  .search-dropdown .dropdown-menu{
+  background-color: #FFF;
+  outline: none;
+  margin-top: 22px;
+  margin-left: -12px;
+  transition: all .6s;
+  }
+  /*Dropmeanu list links*/
+  .dropdown-menu > li > a{
+  color: black;
+  }
+  .dropdown-menu > li > a:hover{
+  background-color: #0779e4;
+  margin-left: 9px;
+  color: #FFF;
+  transition: all .6s;
+  }
+  /*Dropmeanu list divider*/
+  .dropdown-menu .divider{
+  background-color: #0779e4;
+  }
+  /*search Button*/
+  .search-btn .btn{
+  background-color: #0779e4;
+  }
+  /*Start Search bar*/
+  
+  /*Start Welcome section*/
+  .welcome {
+  margin-top: 20px;
+  max-height: 500px;
+  background-color: whitesmoke;
+  overflow: hidden;/*because it's covering the section bellow*/
+  }
+  .welcome .welcome-text{
+  margin-top: 90px;
+  }
+  .welcome .welcome-text h1{
+   color: #0779e4;
+  }
+  .welcome .welcome-text p{
+  line-height: 2.3em;
+  color: #666;
+  }
+  .welcome .welcome-img img{
+  width: 100%;
+  max-height: 490px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  }
+  .navbar-nav > li > a {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  line-height: 0px;
+  text-align: center;
+  border-radius: 3px;
+  margin: 8px auto;
+  margin-bottom: 0px;
+  font-size: 15px;
+  }
+  .navbar-inverse .navbar-nav > .active > a,
+  .navbar-inverse .navbar-nav > .active > a:hover,
+  .navbar-inverse .navbar-nav > .active > a:focus{
+  background-color:#0779e4 ;
+  }
+  .collapse .links-contanier{
+  text-align: center;
+  position: relative;
+  left: 30%;
+  }
+  /*End Welcome Section*/
+  
+  
+  
+  /*************************************************************************/
+  
+   
+  
+  /* navbar */
+  
+  .image-user {
+  width: 40px;
+  border-radius: 50%;
+  }
+  
+  
+  /*end navbar*/
+/*************************END KHALID PART******************************************/
+/*************************START DOAA PART******************************************/
+
+/* start properties for section about */
+/* row padding top and bottom */
+#about .container .row{
+  padding:60px 0;
+  }
+  /* for first span */
+  #about .container .row .about-information span{
+    font-size: 16px;
+    color: #3ba0ff;
+    font-weight: 500;
+    letter-spacing: 2px;
+  }
+  /* for header h1 */
+  #about .container .row .about-information h1{
+    font-weight:bold;
+  }
+  /* for paraghraph */
+  #about .container .row .about-information p{
+  padding-top:10px;
+  line-height:24px;
+  color:#64676c;
+  }
+  #about .more_courses_btn{
+    text-align: center;
+    margin: 15px 0;
+    float: left;
+  }
+  #about .more_courses_btn a{
+    padding: 15px 25px;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+  
+  }
+  #about .more_courses_btn a::before,
+  #about .more_courses_btn a span{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #3e44ec;
+    z-index: -1;
+    transition: width .3s ease-in-out;
+  }
+  #about .more_courses_btn a span{
+    background-color: #2d3092;
+    z-index: -2;
+    width: 100%;
+  }
+  #about .more_courses_btn a:hover::before{
+    width: 100%;
+  }
+  /* for all parent's div in row */
+  #about .container .row > div{
+    overflow:hidden;
+    height:100%;
+  
+  }
+  /* for the list of icons */
+  #about .container .row > div .about-information ul{
+    margin-bottom:50px;
+  }
+  
+  #about .container .row > div .about-information ul li span{
+  font-weight:900;
+  color:black;
+  }
+  /* for the icon */
+  #about .container .row > div .about-information ul li i{
+        font-size: 20px;
+      margin-right: 20px;
+    color:#030431;
+  
+  }
+  #about .container .row > div .about-information ul li  .fa-graduation-cap{
+    margin-right:12px;
+  }
+  /* for the button in about-information */
+  #about .container .row > div .about-information button{
+    margin-top:19px;
+    position:relative;
+    background-color:#030431;
+    color:white;
+    width:150px;
+    padding:10px;
+  }
+  #about .container .row > div .about-img1,
+  #about .container .row > div .about-img2 
+   {
+    width:100%;
+    height:100%;
+  }
+  /* for the images */
+  #about .container .row > div .about-img1 img,
+  #about .container .row > div .about-img2 img
+  {
+    width:100%;
+    height:100%;
+  }
+  /* for the lines */
+  #about .about-line-up,
+  #about .about-line-down
+  {
+    height:60px;
+    background-color:#030431;
+    width:100%;
+  }
+  /* end properties for section about */
+  
+  
+  /* star section our goals */
+  #our-goals
+  {padding-bottom:100px;
+  }
+  /* this for line */
+  #our-goals .our-goals-light-up{
+    height:70px!important;
+  }
+  /* this for the first row */
+  #our-goals .row11{
+    margin-top:60px;
+  }
+  /* this for first child in first row */
+  #our-goals .row div:first-child{
+    padding:0;
+    margin:0;
+    
+  }
+  /* image */
+  #our-goals .row >div .our-goals-image{
+    width:100%;
+    height:100%;
+  }
+  /* this for last child in first row */
+  
+  #our-goals .row div:last-child{
+    padding:0;
+    margin:0;
+  }
+  /* this for description in first row */
+  #our-goals .row >div .our-goals-description{
+    width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      padding-left: 270px;
+  }
+  /* header of description */
+  #our-goals .row >div .our-goals-description h1{
+        margin-top: 5px;
+      color: blue;
+      font-weight: bolder;
+      font-size: 30px;
+  }
+  /* p in description */
+  #our-goals .row >div .our-goals-description p{
+        color: #64676c;
+      line-height: 25px;
+      margin-top: 30px;
+      font-size: 15px;
+  }
+  /*  this for last section in our goals in second row */
+  #our-goals .waiting-for{
+    width:100%;
+    background-color:cornflowerblue;
+    margin-top:60px;
+    overflow:hidden;
+    color:white;
+  }
+  
+  /* this colmn1=question in second row */
+  #our-goals .waiting-for >div .question{
+      margin-top:40px;
+    padding-bottom:30px;
+  
+  
+  }
+  /* this colmn2=button in second row */
+  #our-goals .waiting-for >div .waiting-for-button {
+    text-align:right;
+      margin-top:40px;
+  
+  }
+  #our-goals .waiting-for >div .waiting-for-button button:hover
+  {
+  color:white;}
+  /* end section our goals */
+
+/*****************************END DOAA PART***********************************************/
+/****************************** START YOUNESS PART ****************************************/
+
+/*Dashboard content */
+
+.photo-user {
+    width: 100px;
+    border: 1px solid gray;
+    padding: 5px;
+}
+
+.photo-camera {
+    position: absolute;
+    left: 50%;
+    bottom: 54%;
+    font-size: 36px;
+    cursor: pointer;
+}
+
+
+/*End Dashboard content */
+
+
+
+/*start the main responsive heading*/
+.main_heding{
+  padding: 40px 0 20px;
+  }
+  .main_heding .heading_label{
+  font-size: 16px;
+  color: #3ba0ff;
+  font-weight: 500;
+  letter-spacing: 2px
+  }
+  .main_heding .heading_title{
+  color: #030431;
+  font-weight: bold;
+  font-size: 38px;
+  }
+  /*end the main heading_title*/
+  
+  
+  /*start the courses section*/
+  .courses{
+  margin: 40px 0 80px;
+  }
+  .courses .course_box{
+  padding: 40px 30px;
+  border: 1px solid #f0f0f0;
+  margin-bottom: 50px;
+  transition: background-color .4s ease-in-out;
+  }
+  .courses .course_box .icon svg{
+  fill: #2d3092;
+  }
+  .courses .course_box .course_title{
+  font-size: 26px;
+  margin: 30px 0 20px;
+  font-weight: 700;
+  }
+  .courses .course_box .course_title a{
+  color: #250051;
+  text-decoration: none;
+  font-weight: 600
+  }
+  .courses .course_box .course_description{
+  font-size: 16px;
+  color: #64676c;
+  line-height: 1.8
+  }
+  .courses .course_box .read_more{
+  color: #3ba0ff;
+  font-size: 18px;
+  display: inline-block;
+  margin-top: 20px
+  }
+  .courses .course_box:hover{
+  background-color: #2d3092
+  }
+  .courses .course_box:hover .icon svg{
+  fill: #fff
+  }
+  .courses .course_box:hover .course_title a,
+  .courses .course_box:hover .course_description,
+  .courses .course_box:hover .read_more{
+  color: #fff
+  }
+  .courses .more_courses_btn{
+  text-align: center;
+  margin: 15px 0;
+  }
+  .courses .more_courses_btn a{
+  padding: 15px 25px;
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+  position: relative;
+  
+  }
+  .courses .more_courses_btn a::before,
+  .courses .more_courses_btn a span{
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #3e44ec;
+  z-index: -1;
+  transition: width .3s ease-in-out;
+  }
+  .courses .more_courses_btn a span{
+  background-color: #2d3092;
+  z-index: -2;
+  width: 100%;
+  }
+  .courses .more_courses_btn a:hover::before{
+  width: 100%;
+  }
+  /*end the courses section*/
+  
+  
+  /*strat the statistics sectioin*/
+  .statistics{
+  background-color: #f6fbff;
+  margin: 80px 0;
+  padding: 40px 0;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  }
+  .statistics .statistic_container{
+  color: #27ae60;
+  margin-bottom: 30px;
+  text-align: center;
+  }
+  .statistics .statistic_container.two{
+  color: #e74c3c;
+  }
+  .statistics .statistic_container.three{
+  color: #273c75;
+  }
+  .statistics .statistic_container.four{
+  color: #4cd137;
+  }
+  .statistics .statistic_container .statistic_icon{
+  font-size: 52px;
+  }
+  .statistics .statistic_container .statistic_number{
+  font-size: 28px;
+  }
+  .statistics .statistic_container .statistic_number .number{
+  font-weight: 700
+  }
+  .statistics .shap{
+  position: absolute;
+  width: 200px;
+  height: 150px;
+  bottom: 0;
+  left: 0;
+  overflow: hidden
+  }
+  .statistics .shap2{
+  right: 0;
+  top: 10px;
+  left: auto
+  }
+  .statistics .shap img{
+  width: 100%
+  }
+  /*end the statistics section*/
+  
+  /*start styling the testimenial section*/
+  #testimenials .testimenial_content .testim_box{
+  border-bottom: 3px solid#494ffd;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #dbdbdb;
+  padding: 30px 15px;
+  margin-bottom: 30px
+  }
+  #testimenials .testimenial_content .testim_box .title h4{
+  font-weight: 500;
+  color: #000;
+  font-size: 20px;
+  }
+  #testimenials .testimenial_content .testim_box .stars{
+  color: #f1c40f ;
+  font-size: 18px;
+  }
+  #testimenials .testimenial_content .testim_box .testim_content{
+  color: #64676c;
+  line-height: 1.8;
+  margin: 15px 0;
+  font-size: 16px;
+  }
+  #testimenials .testimenial_content .testim_box .testim_author{
+  display: flex;
+  margin-top: 20px;
+  }
+  #testimenials .testimenial_content .testim_box .testim_author .author_img{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 10px;
+  display: inline-block;
+  }
+  #testimenials .testimenial_content .testim_box .testim_author .author_body h5{
+  font-weight: bold;
+  }
+  #testimenials .testimenial_content .testim_box .testim_author .author_body p{
+  color: #9f9f9f;
+  margin: 0
+  }
+  /*end styling the testimenial sectiong*/
+  
+  
+  /*last courses*/
+  .last-courses{
+  padding-top: 20px 0px;
+  margin-top: 10px;
+  border-top: 30px solid #3c419a;
+  }
+  .last-courses .container > h6{
+  color:#3c419a;
+  margin-bottom: 20px;
+  }
+  .last-courses .container h1{
+   margin-bottom: 20px;
+  }
+  .last-courses .content-box {
+  margin-bottom: 20px;
+  }
+  .last-courses .content-box img{
+  width: 300px;
+  height: 300px;
+  }
+  .last-courses .content-box .text{
+  max-width: 60px;
+  background-color: #3c419a;
+  color: #fff;
+  position: relative;
+  bottom: 57px;
+  left: 8.6%;
+  line-height: 2em;
+  text-align: center;
+  padding-top: 1px;
+  }
+  
+  .last-courses .content-box .text h5{
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 20px;
+  }
+  .last-courses .content-box .text p{
+  margin-top: -14px;
+  }
+  .last-courses .content-box .under-word {
+  margin-top: -30px;
+  }
+  .last-courses .content-box .under-word h6{
+  color: #3c419a;
+  margin-bottom: 5px;
+  }
+  .last-courses .content-box .under-word > h4{
+  line-height: 24px;
+  }
+  /*End Last Cources */
+/*start the footer*/
+footer{
+  margin-top: 100px;
+  background-color: #0b0b1d;
+  padding: 70px 0 20px;
+}
+/*top footer heading*/
+footer .footer-heading{
+  margin-bottom: 80px
+}
+footer .footer-heading .footer-tittle2 h4{
+  color: #fff;
+  font-size: 28px;
+  margin: 20px 0 30px;
+}
+footer .footer-heading .footer-form #mc_embed_signup form{
+  width: 100%;
+  height: 60px;
+  display: flex;
+  /* margin-bottom: 80px */
+}
+footer .footer-heading .footer-form #mc_embed_signup form input[type="email"]{
+  flex: 1;
+  font-size: 18px;
+  border: 0;
+  outline: none;
+  padding: 15px;
+}
+footer .footer-heading .footer-form #mc_embed_signup form .form-icon button{
+  padding: 15px 25px;
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+  background-color: #2d3092;
+  position: relative;
+  transition: background-color .3s ease;
+  outline: none;
+  border: 0;
+  height: 100%;
+}
+footer .footer-heading .footer-form #mc_embed_signup form input[type="email"]{
+  width: 100%;
+  display: block
+}
+@media (max-width: 567px) {
+  footer .footer-heading .footer-form #mc_embed_signup form{
+    display: block;
+    margin-bottom: 80px;
+  }
+  footer .footer-heading .footer-form #mc_embed_signup form .form-icon button{
+    width: 100%;
+    display: block
+  }
+  footer .footer-heading .footer-form #mc_embed_signup form .form-icon button{
+    width: 100%;
+    display: block
+  }
+}
+/* footer menu links*/
+footer .footer_menu .single-footer-caption h4{
+  color: #fff
+}
+footer .footer_menu .single-footer-caption ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+footer .footer_menu .single-footer-caption ul li{
+  line-height: 1.8;
+  transition: padding .3s ease;
+}
+footer .footer_menu .single-footer-caption ul li:hover{
+  padding-left: 10px
+}
+footer .footer_menu .single-footer-caption ul li a{
+  color: #919191;
+  text-decoration: none;
+}
+footer .footer_menu .single-footer-caption ul li a:hover{
+  color: #ccc;
+}
+/*bottom footer*/
+footer .footer-bottom{
+  padding: 50px 0 0 ;
+  margin-top: 15px;
+}
+footer .footer-bottom .footer-copy-right{
+  color: #ccc
+}
+footer .footer-social a{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-color: #ccc;
+  font-size: 24px;
+  text-align: center;
+  line-height: 40px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  color: #000;
+  transition: all .3s ease;
+}
+footer .footer-social a:hover{
+  color: #fff;
+  border-radius: 50%;
+}
+
+footer .footer-social a.fb_link:hover{background-color: #3b5998;}
+footer .footer-social a.tw_link:hover{background-color: #00aeef;}
+footer .footer-social a.g_link:hover{background-color: #dd4b39;}
+footer .footer-social a.ins_link:hover{background-color: #e1306c;}
+footer .footer-social a.yo_link:hover{background-color: #ff0000;}
+/*end the footer*/
+/**************************END YOUNESS PART ***************************/

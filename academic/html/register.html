@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>ACDMAIC</title>
+
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+
+
+  <!-- Bootstrap 3.3.7 -->
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="../css/font-awesome.min.css">
+
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="../css/ionicons.min.css">
+
+  <!-- STYLE -->
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/pages/style-register.css">
+  <!-- media query -->
+  <link rel="stylesheet" href="../css/media.css">
+
+  <!-- Google Font -->
+  <link rel="stylesheet"href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
+</head>
+
+<body class="hold-transition skin-blue sidebar-mini">
+
+
+  <div class="wrapper">
+
+
+    <header class="main-header">
+      <!--Start nav-bar-->
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+        <!-- start container -->
+        <div class="container">
+
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+
+            <a class="navbar-brand" href="../index.html" style="margin-top: -5px;">Acadimic<span
+                style="display: block; font-size: 12px; text-align: center;">Zero2Hero</span></a>
+            <!--LOGO-->
+
+          </div>
+
+          <!--for phone meanu-->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="overflow: auto;">
+
+            <ul class="nav navbar-nav mr-auto main-link">
+              <!--Links active and what you want to add-->
+              <li class="active"><a href="../index.html">Home <span class="sr-only">(current)</span></a></li>
+              <li><a href="#">courses</a></li>
+              <li><a href="#">revisions</a></li>
+              <li><a href="#">asks</a></li>
+              <li><a href="#">blog</a></li>
+              <li><a href="html/about.html">about</a></li>
+              <li><a href="#">contact</a></li>
+            </ul>
+
+            <ul class="nav navbar-nav mr-auto  loginandregister">
+              <li><a href="../html/login.html">Login</a></li>
+              <li><a href="../html/register.html">Register</a></li>
+            </ul>
+          </div>
+
+        </div>
+
+
+      </nav>
+      <!--End nav bar-->
+
+    </header>
+
+
+	<!-- start sectio register -->
+	   <section id="register">
+	   <div class="container">
+	   <h1 class="text-center">Sign Up</h1>
+	   <!-- this for last name and last name -->
+	   <label>First Name:</label>
+	<label style=" margin-left:54.4%">Last Name:</label>
+     <div class="two-inputs ">
+     <div class="input-group   margin-bottom-sm ">
+     <span class="input-group-addon"><i class="fa fa-user fa-fw"></i></span>
+     <input class="form-control" type="text" placeholder="First Name">
+     </div>
+
+    <div class="input-group ">
+    <span class="input-group-addon"><i class="fa fa-user fa-fw"></i></span>
+    <input class="form-control" type="text" placeholder="Last Name">
+    </div>
+	</div>
+    <br>
+    <br>
+	<!-- this for email -->
+	<label class="email"  >Email:</label>
+	<br>
+     <div class="input-group email1">
+    <span class="input-group-addon"><i class="fa fa-envelope fa-fw"></i></span>
+    <input class="form-control" type="email" placeholder="Email">
+    </div>
+	<br>
+	<br>
+	 <!-- this for password and confirm password -->
+	<label>Password:</label>
+	<label style=" margin-left:54.4%">Confirm Password:</label>
+	<br>
+	 <div class="two-inputs ">
+    <div class="input-group margin-bottom-sm">
+	 <span class="input-group-addon"><i class="fa fa-key fa-fw"></i></span>
+    <input class="form-control " type="password" placeholder="Password">
+      </div>
+	 
+
+
+
+    <div class="input-group ">
+    <span class="input-group-addon"><i class="fa fa-key fa-fw"></i></span>
+    <input class="form-control" type="password" placeholder="Confirm Password">
+    </div>
+	</div>
+	<br>
+	<br>
+     <!-- this for telephone -->
+    <label>Telephone:</label>
+     <br>
+     <div class="input-group" class="tele1 " style="width:40%">
+    <span class="input-group-addon"><i class="fa fa-phone fa-fw"></i></span>
+	<input type="tel" placeholder="123-456-789" class="form-control" />
+	</div>
+
+	
+	<br>
+	<br>
+	<!-- this for birthday date and age -->
+	<label>Birthday Date:</label>
+	<label style=" margin-left:52.8% ">Age:</label>
+	<br>
+	 <div class="two-inputs ">
+     <div class="input-group margin-bottom-sm ">
+	
+	 
+    <span class="input-group-addon"><i class="fa fa-birthday-cake fa-fw"></i></span>
+    <input class="form-control" type="text"  id="dob">
+   </div>
+
+    <div class="input-group ">
+    <span class="input-group-addon"><i class="fa fa-birthday-cake fa-fw"></i></span>
+    <input class="form-control" type="text" placeholder="Age" id="dob1">
+    </div>
+	</div>
+	<br>
+	<br>
+	<!-- male/female -->
+		<label>Sex:</label>
+		<form>
+      <input type="radio" id="male" name="gender" value="male">
+     <label for="male">Male</label>
+     <input type="radio" id="female" name="gender" value="female" style="position:relative;margin-left:50px">
+     <label for="female">Female</label><br>
+  
+      </form>
+     <br>
+	 <!-- this for address -->
+	<label class="email"  >Address:</label>
+    
+	<br>
+	 <div class="input-group email1">
+    <span class="input-group-addon"><i class="fa fa-home fa-fw"></i></span>
+    <input class="form-control" type="text" placeholder="Address">
+    </div>
+	<br>
+	<br>
+	<!-- this for country and city -->
+	   <label>Country:</label>
+	   <label style=" margin-left:55.4%  ">City:</label>
+	   <div class="two-inputs">
+
+	    <div class="input-group margin-bottom-sm "style="height:43px">
+	
+	 
+        <span class="input-group-addon"><i class="fa fa-flag fa-fw"></i></span>
+       <select class="selectpicker countrypicker form-control" data-flag="true" style="height:45px">
+	   <option>Egypt</option>
+	   <option>syria</option>
+	   <option>lebanon</option>
+	   <option>jordan</option>
+	   <option>iraq</option>
+	   
+	   </select>
+       </div>
+
+    <div class="input-group ">
+    <span class="input-group-addon"><i class="fa fa-building-o fa-fw"></i></span>
+    <input class="form-control" type="text" placeholder="City">
+    </div>
+	</div>
+    <br>
+    <br>
+	 <!-- this for image field --> 
+       <label class="image-header">Image:</label>
+       <br>
+       <div class="input-group file1 " style="width:40% ">
+        <span class="input-group-addon"><i class="fa fa-upload fa-fw"></i></span>
+
+      <input type="file" id="avatar" name="avatar" class="form-control"
+       accept="image/png, image/jpeg">
+       
+       </div>
+	
+	<br>
+	<br>
+	<div>
+	<!-- this for profile picture -->
+	<div class="image1">
+	<img src="images/image1.png" />
+	</div>
+	</div>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br
+	<!-- this for submit button -->
+	<section class="submit">
+     <a href="#"><button class="btn mx-auto  "> <i class="fa fa-save" style="margin-right:8px"></i>Submit 	 
+     </button></a>
+	 </section>
+	 <br>
+	 
+	 <br>
+	 <br>
+
+
+
+
+
+       </div>
+
+
+	   </section>
+	    <!-- end section register -->
+	  
+		<footer>
+			<!--? Footer Start-->
+			<div class="footer-area footer-bg">
+				<div class="container">
+					<div class="footer-top footer-padding">
+						<!-- footer Heading -->
+						<div class="footer-heading">
+							<div class="row">
+								<div class="col-md-6 col-xl-6">
+									<div class="footer-tittle2">
+										<h4>Stay Updated</h4>
+									</div>
+									<!-- Form -->
+									<div class="footer-form mb-50">
+										<div id="mc_embed_signup">
+											<form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="subscribe_form relative mail_part" novalidate="true">
+												<input type="email" name="EMAIL" id="newsletter-form-email" placeholder=" Email Address " class="placeholder hide-on-focus" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your email address'">
+												<div class="form-icon">
+													<button type="submit" name="submit" id="newsletter-submit" class="email_icon newsletter-submit button-contactForm">
+														Subscribe Now
+													</button>
+												</div>
+												<div class="mt-10 info"></div>
+											</form>
+										</div>
+									</div>
+								</div>
+								<!-- empty space -->
+								<div class="col-md-1"></div>
+								<div class="col-md-5">
+									<div class="footer-tittle2">
+										<h4>Let’s Get Social</h4>
+									</div>
+									<!-- Footer Social -->
+									<div class="footer-social">
+	 
+										<a class="fb_link" href="#"><i class="fa fa-facebook-f"></i></a>
+										<a class="tw_link" href="#"><i class="fa fa-twitter" ></i></a>
+										<a class="g_link" href="#"><i class="fa fa-google"></i></a>
+										<a class="ins_link" href="#"><i class="fa fa-instagram"></i></a>
+										<a class="yo_link" href="#"><i class="fa fa-youtube"></i></a>
+									  </div>
+								</div>
+							</div>
+						</div>
+						<!-- Footer Menu -->
+						<div class="row d-flex justify-content-between footer_menu">
+							<div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+								<div class="single-footer-caption mb-50">
+									<div class="footer-tittle">
+										<h4>About Us</h4>
+										<ul>
+											<li><a href="#">Home</a></li>
+											<li><a href="#">Courses</a></li>
+											<li><a href="#">revisions</a></li>
+											<li><a href="#">Asks</a></li>
+											<li><a href="#">Blog</a></li>
+											<li><a href="#">About</a></li>
+											<li><a href="#">Contact</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+								<div class="single-footer-caption mb-50">
+									<div class="footer-tittle">
+										<h4>Courses</h4>
+										<ul>
+											<li><a href="#">Web design</a></li>
+											<li><a href="#">App development</a></li>
+											<li><a href="#">Front-end</a></li>
+											<li><a href="#">back-end</a></li>
+											<li><a href="#"> UI-UX design</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+								<div class="single-footer-caption mb-50">
+									<div class="footer-tittle">
+										<h4>Revisions</h4>
+										<ul>
+										  <li><a href="#">Web design</a></li>
+										  <li><a href="#">App development</a></li>
+										  <li><a href="#">Front-end</a></li>
+										  <li><a href="#">back-end</a></li>
+										  <li><a href="#"> UI-UX design</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+								<div class="single-footer-caption mb-50">
+									<div class="footer-tittle">
+										<h4>Spport</h4>
+										<ul>
+											<li><a href="#">Support</a></li>
+											<li><a href="#">Contact</a></li>
+											<li><a href="#">System Requirements</a></li>
+											<li><a href="#">Register Activation Key</a></li>
+											<li><a href="#">Site feedback</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Footer Bottom -->
+					<div class="footer-bottom">
+						<div class="row d-flex align-items-center">
+							<div class="col-lg-12">
+								<div class="footer-copy-right text-center">
+									<p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+										Copyright ©<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with  by TEAM
+										<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Footer End-->
+		</footer>
+	 
+		<!-- jQuery 3 -->
+		<script src="../js/jquery.min.js"></script>
+	 
+		<!-- Bootstrap 3.3.7 -->
+		<script src="../js/bootstrap.min.js"></script>
+  <script src="../js/jquery-ui.js"></script>
+     	<!-- this links for bootstrap 3 and 4 js -->
+
+	<script src="../js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script>
+	$(document).ready(function() {
+        var age = "";
+        $('#dob').datepicker({
+            onSelect: function(value, ui) {
+                var today = new Date();
+                age = today.getFullYear() - ui.selectedYear;
+                $('#dob1').val(age);
+            },
+            changeMonth: true,
+            changeYear: true
+        })
+    })
+	
+	
+	</script>
+    </body>
+	</html>   
