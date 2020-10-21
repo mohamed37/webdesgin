@@ -4,8 +4,8 @@ body {
   font-family: "source sans pro", sans-serif !important;
   height: 2000px;
   }
-  
-  
+
+
   /*Start navbar*/
   .navbar{
   background-color: #FFF;
@@ -17,7 +17,7 @@ body {
   color:black
   }
   .navbar .navbar-brand span{
-  display: block; 
+  display: block;
   font-size: 15px;
   text-align: center;
   color:black
@@ -64,7 +64,7 @@ body {
   left: 30%;
   }
   /*End Nav-Bar*/
-  
+
   /*Start Heading*/
   .heading {
   margin-top: 51px;
@@ -91,8 +91,8 @@ body {
      background-color: #ffffffdb;
   }
   /*End Heading*/
-  
-  
+
+
   /*Start Search bar*/
   .search-dropdown{
   min-width: 88%;
@@ -102,7 +102,7 @@ body {
   margin: 10px 0px;
   transition: all .6s;
   border: 1px solid #ffff;
- 
+
   }
   .search-dropdown .search{
   border-radius: 30px;
@@ -164,7 +164,7 @@ body {
   background-color: #0779e4;
   }
   /*Start Search bar*/
-  
+
   /*Start Welcome section*/
   .welcome {
   margin-top: 20px;
@@ -209,21 +209,21 @@ body {
   left: 30%;
   }
   /*End Welcome Section*/
-  
-  
-  
+
+
+
   /*************************************************************************/
-  
-   
-  
+
+
+
   /* navbar */
-  
+
   .image-user {
   width: 40px;
   border-radius: 50%;
   }
-  
-  
+
+
   /*end navbar*/
 /*************************END KHALID PART******************************************/
 /*************************START DOAA PART******************************************/
@@ -261,7 +261,7 @@ body {
     color: #fff;
     text-decoration: none;
     position: relative;
-  
+
   }
   #about .more_courses_btn a::before,
   #about .more_courses_btn a span{
@@ -287,13 +287,13 @@ body {
   #about .container .row > div{
     overflow:hidden;
     height:100%;
-  
+
   }
   /* for the list of icons */
   #about .container .row > div .about-information ul{
     margin-bottom:50px;
   }
-  
+
   #about .container .row > div .about-information ul li span{
   font-weight:900;
   color:black;
@@ -303,7 +303,7 @@ body {
         font-size: 20px;
       margin-right: 20px;
     color:#030431;
-  
+
   }
   #about .container .row > div .about-information ul li  .fa-graduation-cap{
     margin-right:12px;
@@ -318,7 +318,7 @@ body {
     padding:10px;
   }
   #about .container .row > div .about-img1,
-  #about .container .row > div .about-img2 
+  #about .container .row > div .about-img2
    {
     width:100%;
     height:100%;
@@ -339,8 +339,8 @@ body {
     width:100%;
   }
   /* end properties for section about */
-  
-  
+
+
   /* star section our goals */
   #our-goals
   {padding-bottom:100px;
@@ -357,7 +357,7 @@ body {
   #our-goals .row div:first-child{
     padding:0;
     margin:0;
-    
+
   }
   /* image */
   #our-goals .row >div .our-goals-image{
@@ -365,7 +365,7 @@ body {
     height:100%;
   }
   /* this for last child in first row */
-  
+
   #our-goals .row div:last-child{
     padding:0;
     margin:0;
@@ -400,19 +400,19 @@ body {
     overflow:hidden;
     color:white;
   }
-  
+
   /* this colmn1=question in second row */
   #our-goals .waiting-for >div .question{
       margin-top:40px;
     padding-bottom:30px;
-  
-  
+
+
   }
   /* this colmn2=button in second row */
   #our-goals .waiting-for >div .waiting-for-button {
     text-align:right;
       margin-top:40px;
-  
+
   }
   #our-goals .waiting-for >div .waiting-for-button button:hover
   {
@@ -459,8 +459,8 @@ body {
   font-size: 38px;
   }
   /*end the main heading_title*/
-  
-  
+
+
   /*start the courses section*/
   .courses{
   margin: 40px 0 80px;
@@ -506,20 +506,20 @@ body {
   .courses .course_box:hover .read_more{
   color: #fff
   }
-  .courses .more_courses_btn{
+  .more_courses_btn{
   text-align: center;
   margin: 15px 0;
   }
-  .courses .more_courses_btn a{
+  .more_courses_btn a{
   padding: 15px 25px;
   font-size: 18px;
   color: #fff;
   text-decoration: none;
   position: relative;
-  
+
   }
-  .courses .more_courses_btn a::before,
-  .courses .more_courses_btn a span{
+  .more_courses_btn a::before,
+  .more_courses_btn a span{
   content: '';
   position: absolute;
   width: 0;
@@ -530,17 +530,17 @@ body {
   z-index: -1;
   transition: width .3s ease-in-out;
   }
-  .courses .more_courses_btn a span{
+  .more_courses_btn a span{
   background-color: #2d3092;
   z-index: -2;
   width: 100%;
   }
-  .courses .more_courses_btn a:hover::before{
+  .more_courses_btn a:hover::before{
   width: 100%;
   }
   /*end the courses section*/
-  
-  
+
+
   /*strat the statistics sectioin*/
   .statistics{
   background-color: #f6fbff;
@@ -591,7 +591,7 @@ body {
   width: 100%
   }
   /*end the statistics section*/
-  
+
   /*start styling the testimenial section*/
   #testimenials .testimenial_content .testim_box{
   border-bottom: 3px solid#494ffd;
@@ -634,8 +634,8 @@ body {
   margin: 0
   }
   /*end styling the testimenial sectiong*/
-  
-  
+
+
   /*last courses*/
   .last-courses{
   padding-top: 20px 0px;
@@ -667,7 +667,7 @@ body {
   text-align: center;
   padding-top: 1px;
   }
-  
+
   .last-courses .content-box .text h5{
   letter-spacing: 2px;
   font-weight: bold;
