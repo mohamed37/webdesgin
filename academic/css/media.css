@@ -271,3 +271,18 @@
   }
 }
 /*end courses page*/
+
+
+/*start course lessons details*/
+@media (max-width: 576px) {
+  #course_tutorial .course_lessons_container .lesson .lesson_title .lesson_title_nember{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+  }
+  #course_tutorial .course_lessons_container .lesson .lesson_title .lesson_title_text{
+    font-size: 16px;
+  }
+}
+/*end course lessons details*/
