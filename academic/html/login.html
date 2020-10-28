@@ -1,91 +1,81 @@
 <!DOCTYPE html>
-<html>
+<html >
+ <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>ACDMAIC</title>
 
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>ACDMAIC</title>
-
-  <!-- Tell the browser to be responsive to screen width -->
-  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-
-
-  <!-- Bootstrap 3.3.7 -->
-  <link rel="stylesheet" href="../css/bootstrap.min.css">
-
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="../css/font-awesome.min.css">
-
-  <!-- Ionicons -->
-  <link rel="stylesheet" href="../css/ionicons.min.css">
-
-  <!-- STYLE -->
-  <link rel="stylesheet" href="../css/style.css">
-  <link rel="stylesheet" href="../css/pages/style-login-css.css">
-  <!-- media query -->
-  <link rel="stylesheet" href="../css/media.css">
-
-  <!-- Google Font -->
-  <link rel="stylesheet"href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
-</head>
-
-<body class="hold-transition skin-blue sidebar-mini">
+      <!-- Tell the browser to be responsive to screen width -->
+      <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
 
 
-  <div class="wrapper">
+      <!-- Bootstrap 3.3.7 -->
+      <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+      <!-- Font Awesome -->
+      <link rel="stylesheet" href="../css/font-awesome.min.css">
+
+      <!-- Ionicons -->
+      <link rel="stylesheet" href="../css/ionicons.min.css">
+
+      <!-- STYLE -->
+     <link rel="stylesheet"  href="../css/style.css">
+     <link rel="stylesheet" href="../css/pages/course.css">
+     <!-- media query -->
+     <link rel="stylesheet" href="../css/media.css">
+	      <link rel="stylesheet" href="../css/pages/style-login-css.css">
 
 
-    <header class="main-header">
-      <!--Start nav-bar-->
+      <!-- Google Font -->
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
+ </head>
+ <body>
+   <header class="main-header">
+            <!--Start nav-bar-->
       <nav class="navbar navbar-inverse navbar-fixed-top">
-        <!-- start container -->
-        <div class="container">
+          <!-- start container -->
+          <div class="container">
+              <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                      data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="#">logo</a>
+                  <!--LOGO-->
+              </div>
 
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-              data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-
-            <a class="navbar-brand" href="../index.html" style="margin-top: -5px;">Acadimic<span
-                style="display: block; font-size: 12px; text-align: center;">Zero2Hero</span></a>
-            <!--LOGO-->
+              <!--for phone meanu-->
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <div class="links-contanier">
+                      <ul class="nav navbar-nav ">
+                          <!--Links active and what you want to add-->
+                          <li><a href="#">Home <span class="sr-only">(current)</span></a></li>
+                          <li><a href="#">courses</a></li>
+                          <li><a href="#">revisions</a></li>
+                          <li><a href="#">asks</a></li>
+                          <li><a href="#">blog</a></li>
+                          <li class=""><a href="#">about</a></li>
+                          <li><a href="#">contact</a></li>
+                      </ul>
+                  </div>
+                  <ul class="nav navbar-nav navbar-right loginandregister">
+                      <li><a href="#">Login</a></li>
+                      <li><a href="#">Register</a></li>
+                  </ul>
+              </div>
 
           </div>
-
-          <!--for phone meanu-->
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="overflow: auto;">
-
-            <ul class="nav navbar-nav mr-auto main-link">
-              <!--Links active and what you want to add-->
-              <li class="active"><a href="../index.html">Home <span class="sr-only">(current)</span></a></li>
-              <li><a href="#">courses</a></li>
-              <li><a href="#">revisions</a></li>
-              <li><a href="#">asks</a></li>
-              <li><a href="#">blog</a></li>
-              <li><a href="html/about.html">about</a></li>
-              <li><a href="#">contact</a></li>
-            </ul>
-
-            <ul class="nav navbar-nav mr-auto  loginandregister">
-              <li><a href="../html/login.html">Login</a></li>
-              <li><a href="../html/register.html">Register</a></li>
-            </ul>
-          </div>
-
-        </div>
-
-
       </nav>
       <!--End nav bar-->
 
     </header>
+			<div class="clearfix"></div>
 
-
-
+	
+	
 	<!-- start section login -->
 	<section id="login">
 	    <!-- header login -->
@@ -118,9 +108,9 @@
 		<!-- Oops empty -->
 		<div class="col-xs-4">
 		</div>
-			<div class="col-xs-8 d-flex  justify-content-flex-start align-items-center">
+			<div class="col-xs-8 d-flex  justify-content-flex-start align-items-center" id="label-remember">
            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-           <label for="vehicle1"> remember me</label>		</div>
+           <label for="vehicle1" id="label1"> remember me</label>		</div>
 		</div>
 		</div>
 		<!-- this for button login and forget question -->
@@ -142,15 +132,15 @@
 			<div class="other-sign-in ">
 		   <div class="row">
 		   <!-- Ooops is empty -->
-		   <div class="col-xl-4">
+		   <div class="col-lg-4">
 		   </div>
 		
-		<div class="col-xl-4 d-flex justify-content-flex-start align-items-center ">
+		<div class="col-lg-4  ">
 		<a href="https://www.facebook.com" target="_blank"><button type="button" class="btn ">sign in with facebook<i class="fa fa-facebook "></i></button></a>
          </div>
 
 		
-		<div class="col-xl-4 d-flex justify-content-flex-start align-items-center ">
+		<div class="col-lg-4  ">
 		  <a href="https://www.gmail.com" target="_blank"><button type="button" class="btn ">sign in with Google+<i class="fa fa-google-plus"></i></button></a>
 	    </div>
 		
@@ -161,12 +151,146 @@
 
 	    </section>
 		<!-- end section login -->
-	
-	<!-- this links for bootstrap 3 and 4 js -->
-	<script src="../js/jquery.min.js"></script>
-	
+		<div class="clearfix"></div>
+     
+       <!-- start footer -->
+       <footer>
+       <!--? Footer Start-->
+       <div class="footer-area footer-bg">
+         <div class="container">
+           <div class="footer-top footer-padding">
+             <!-- footer Heading -->
+             <div class="footer-heading">
+               <div class="row">
+                 <div class="col-md-6 col-xl-6">
+                   <div class="footer-tittle2">
+                     <h4>Stay Updated</h4>
+                   </div>
+                   <!-- Form -->
+                   <div class="footer-form mb-50">
+                     <div id="mc_embed_signup">
+                       <form target="_blank"
+                         action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
+                         method="get" class="subscribe_form relative mail_part" novalidate="true">
+                         <input type="email" name="EMAIL" id="newsletter-form-email" placeholder=" Email Address "
+                           class="placeholder hide-on-focus" onfocus="this.placeholder = ''"
+                           onblur="this.placeholder = 'Your email address'">
+                         <div class="form-icon">
+                           <button type="submit" name="submit" id="newsletter-submit"
+                             class="email_icon newsletter-submit button-contactForm">
+                             Subscribe Now
+                           </button>
+                         </div>
+                         <div class="mt-10 info"></div>
+                       </form>
+                     </div>
+                   </div>
+                 </div>
+                 <!-- empty space -->
+                 <div class="col-md-1"></div>
+                 <div class="col-md-5">
+                   <div class="footer-tittle2">
+                     <h4>Let’s Get Social</h4>
+                   </div>
+                   <!-- Footer Social -->
+                   <div class="footer-social">
 
-	<script src="../js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-	
-    </body>
-	</html>   
+                     <a class="fb_link" href="#"><i class="fa fa-facebook-f"></i></a>
+                     <a class="tw_link" href="#"><i class="fa fa-twitter"></i></a>
+                     <a class="g_link" href="#"><i class="fa fa-google"></i></a>
+                     <a class="ins_link" href="#"><i class="fa fa-instagram"></i></a>
+                     <a class="yo_link" href="#"><i class="fa fa-youtube"></i></a>
+                   </div>
+                 </div>
+               </div>
+             </div>
+             <!-- Footer Menu -->
+             <div class="row d-flex justify-content-between footer_menu">
+               <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                 <div class="single-footer-caption mb-50">
+                   <div class="footer-tittle">
+                     <h4>About Us</h4>
+                     <ul>
+                       <li><a href="#">Home</a></li>
+                       <li><a href="#">Courses</a></li>
+                       <li><a href="#">revisions</a></li>
+                       <li><a href="#">Asks</a></li>
+                       <li><a href="#">Blog</a></li>
+                       <li><a href="#">About</a></li>
+                       <li><a href="#">Contact</a></li>
+                     </ul>
+                   </div>
+                 </div>
+               </div>
+               <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                 <div class="single-footer-caption mb-50">
+                   <div class="footer-tittle">
+                     <h4>Courses</h4>
+                     <ul>
+                       <li><a href="#">Web design</a></li>
+                       <li><a href="#">App development</a></li>
+                       <li><a href="html/course.html">Front-end</a></li>
+                       <li><a href="#">back-end</a></li>
+                       <li><a href="#"> UI-UX design</a></li>
+                     </ul>
+                   </div>
+                 </div>
+               </div>
+               <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                 <div class="single-footer-caption mb-50">
+                   <div class="footer-tittle">
+                     <h4>Revisions</h4>
+                     <ul>
+                       <li><a href="#">Web design</a></li>
+                       <li><a href="#">App development</a></li>
+                       <li><a href="#">Front-end</a></li>
+                       <li><a href="#">back-end</a></li>
+                       <li><a href="#"> UI-UX design</a></li>
+                     </ul>
+                   </div>
+                 </div>
+               </div>
+               <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                 <div class="single-footer-caption mb-50">
+                   <div class="footer-tittle">
+                     <h4>Spport</h4>
+                     <ul>
+                       <li><a href="#">Support</a></li>
+                       <li><a href="#">Contact</a></li>
+                       <li><a href="#">System Requirements</a></li>
+                       <li><a href="#">Register Activation Key</a></li>
+                       <li><a href="#">Site feedback</a></li>
+                     </ul>
+                   </div>
+                 </div>
+               </div>
+             </div>
+           </div>
+           <!-- Footer Bottom -->
+           <div class="footer-bottom">
+             <div class="row d-flex align-items-center">
+               <div class="col-lg-12">
+                 <div class="footer-copy-right text-center">
+                   <p>
+                     Copyright ©
+                     <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is
+                     made with by ZERO2HERO
+
+                   </p>
+                 </div>
+               </div>
+             </div>
+           </div>
+         </div>
+       </div>
+     </footer>
+       <!-- end Footer -->
+
+
+       <!-- jQuery 3 -->
+       <script src="../js/jquery.min.js"></script>
+
+       <!-- Bootstrap 3.3.7 -->
+       <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>

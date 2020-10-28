@@ -90,18 +90,20 @@
 	   <div class="container">
 	   <h1 class="text-center">Sign Up</h1>
 	   <!-- this for last name and last name -->
-	   <label>First Name:</label>
+	   <label >First Name:</label>
 	<label style=" margin-left:54.4%">Last Name:</label>
+	
      <div class="two-inputs ">
      <div class="input-group   margin-bottom-sm ">
      <span class="input-group-addon"><i class="fa fa-user fa-fw"></i></span>
      <input class="form-control" type="text" placeholder="First Name">
      </div>
-
+   
     <div class="input-group ">
     <span class="input-group-addon"><i class="fa fa-user fa-fw"></i></span>
     <input class="form-control" type="text" placeholder="Last Name">
     </div>
+	
 	</div>
     <br>
     <br>
@@ -137,7 +139,7 @@
      <!-- this for telephone -->
     <label>Telephone:</label>
      <br>
-     <div class="input-group" class="tele1 " style="width:40%">
+     <div class="input-group" id="input-tele" class="tele1 " >
     <span class="input-group-addon"><i class="fa fa-phone fa-fw"></i></span>
 	<input type="tel" placeholder="123-456-789" class="form-control" />
 	</div>
@@ -154,7 +156,7 @@
 	
 	 
     <span class="input-group-addon"><i class="fa fa-birthday-cake fa-fw"></i></span>
-    <input class="form-control" type="text"  id="dob">
+    <input class="form-control" type="text" placeholder="birthday date"  id="dob">
    </div>
 
     <div class="input-group ">
@@ -166,11 +168,11 @@
 	<br>
 	<!-- male/female -->
 		<label>Sex:</label>
-		<form>
+		<form id="form-sex">
       <input type="radio" id="male" name="gender" value="male">
-     <label for="male">Male</label>
+     <label id="label-male"for="male">Male</label>
      <input type="radio" id="female" name="gender" value="female" style="position:relative;margin-left:50px">
-     <label for="female">Female</label><br>
+     <label id="label-female" for="female">Female</label><br>
   
       </form>
      <br>
@@ -213,7 +215,7 @@
 	 <!-- this for image field --> 
        <label class="image-header">Image:</label>
        <br>
-       <div class="input-group file1 " style="width:40% ">
+       <div class="input-group file1 " id="file1">
         <span class="input-group-addon"><i class="fa fa-upload fa-fw"></i></span>
 
       <input type="file" id="avatar" name="avatar" class="form-control"
@@ -226,7 +228,7 @@
 	<div>
 	<!-- this for profile picture -->
 	<div class="image1">
-	<img src="images/image1.png" />
+	<img src="../images/image1.png" />
 	</div>
 	</div>
 	<br>
