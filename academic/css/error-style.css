@@ -1,0 +1,61 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body{
+	height:100%;
+	  font-family: "source sans pro", sans-serif !important;
+
+}
+#page-error{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	min-height:100vh;
+   
+}
+
+#page-error .error-content {
+	text-align:center;
+	  
+	
+	
+}
+#page-error .error-content p:first-child{
+    font-size: 130px;
+    font-weight: 900;
+	color:black;
+	
+}
+#page-error .error-content p i{
+	    margin-left: 20px;
+    margin-right: 20px;
+    color: red;
+}
+
+#page-error .error-content .animate__animated{
+
+    font-size: 30px;
+    font-weight: 700;
+	margin-top:20px;
+	margin-bottom:60px;
+letter-spacing: 3px;
+color:black;
+}
+#page-error .error-content button{
+	background-color:black;
+	color:white;
+	width:60px;
+	outline:none;
+	width:100px;
+	padding:10px 0;
+	font-weight:bold;
+	font-size:20px;
+	transition:all ease-in-out .6s;
+	letter-spacing:1px;
+}
+#page-error .error-content button:hover{
+	transform:scale(1.4);
+	background-color:red;
+}
